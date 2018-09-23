@@ -1,0 +1,12 @@
+execVM "scripts\briefing.sqf"
+
+
+
+
+
+
+
+
+
+
+
