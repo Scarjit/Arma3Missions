@@ -32,7 +32,7 @@ _exe = player createDiaryRecord ["diary", ["Fire Support","
 <br/><br/>
 <font size='18'>FIRE SUPPORT PLAN</font>
 <br/>
-Als Fire Support stehen Kampfhubschrauber und die Schiff Bewaffnung bereit.
+Als Fire Support steht die Schiffsbewaffnung bereit.
 <br/>
 Achten Sie drauf, dass die Russen beim Einsatz von Schiff gestützten Waffen misstrauisch werden können.
 "]];

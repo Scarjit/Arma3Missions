@@ -1,0 +1,1 @@
+//radioJammer = [[jammer_fort_langoustier], 500, 100, False] execVM "scripts\TFARjamRadios.sqf";
