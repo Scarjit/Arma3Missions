@@ -1,1 +1,0 @@
-player setPos (getMarkerPos "Base_west_2");

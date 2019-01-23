@@ -1,0 +1,49 @@
+class CfgFunctions 
+{
+	#include "vcom\cfgFunctions.hpp"
+	#include "f\common\functions.hpp"
+};
+
+class Extended_PreInit_EventHandlers {
+	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_CBASettings.sqf";
+};
+
+class CfgRemoteExec
+{
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		mode = 2;
+		jip = 1;		
+		
+		class vcm_serverask { allowedTargets = 0;jip = 1; };
+		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
+		
+	};
+};
+
+
+class Params
+{
+
+    class f_param_debugMode
+    {
+            title = "$STR_f_param_debugMode";
+            values[] = {0,1};
+            texts[] = {"Off","On"};
+            default = 0;
+    };
+
+	class f_param_caching
+	{
+		title = "Cache AI outside distance (m)";
+		values[] = {0,600,800,1000,1500,2000};
+		default = 1000;
+	};
+
+};
+
