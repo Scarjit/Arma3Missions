@@ -1,0 +1,5 @@
+
+#loop
+playsound "thedarkness"
+~350
+goto "loop"
