@@ -2,7 +2,7 @@ if(isDedicated) exitWith{};
 
 if (hasInterface) then {
 
-    ["Insurgency | ALiVE - Running Client Intro..."] call ALiVE_fnc_Dump;
+    //["Insurgency | ALiVE - Running Client Intro..."] call ALiVE_fnc_Dump;
 
     //Intro
     [] spawn {
@@ -11,7 +11,7 @@ if (hasInterface) then {
 		playMusic "Track10_StageB_action";
 		waitUntil {!isNull player};
 
-	    titleText ["Created by Neodym ||HEC||", "BLACK IN",9999];
+	    titleText ["Created by Neodym ||HEC|| & Grille", "BLACK IN",9999];
 		0 fadesound 0;
 
 		private ["_cam","_camx","_camy","_camz","_object","_name"];
