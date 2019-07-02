@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=149;
+		nextID=179;
 	};
 	class Camera
 	{
-		pos[]={4191.7314,237.21455,10420.003};
-		dir[]={0.0068974104,-0.99994999,-0.0072402577};
-		up[]={0.6897217,0.00999978,-0.72400546};
-		aside[]={-0.7240417,0,-0.68975621};
+		pos[]={4237.8975,70.901146,10388.877};
+		dir[]={-0.53463984,-0.25684234,-0.80512196};
+		up[]={-0.1421029,0.96644336,-0.21399318};
+		aside[]={-0.83306557,1.8696301e-007,0.55319619};
 	};
 };
 binarizationWanted=0;
@@ -29557,7 +29557,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[],[]],[[""KAT_Painkiller""],[1]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_adenosine"",""ACE_atropine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_quikclot"",""ACE_surgicalKit"",""ACE_bodyBag"",""adv_aceCPR_AED"",""adv_aceSplint_splint"",""KAT_larynx"",""KAT_guedel"",""KAT_accuvac"",""KAT_X_AED"",""KAT_Pulseoximeter"",""KAT_ChestSeal""],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]],[[],[]]],false]";
+													value="[[[[],[]],[[""KAT_Painkiller""],[]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_adenosine"",""ACE_atropine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_quikclot"",""ACE_surgicalKit"",""ACE_bodyBag"",""adv_aceCPR_AED"",""adv_aceSplint_splint"",""KAT_larynx"",""KAT_guedel"",""KAT_accuvac"",""KAT_X_AED"",""KAT_Pulseoximeter"",""KAT_ChestSeal""],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -29615,7 +29615,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[],[]],[[""KAT_Painkiller""],[1]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_adenosine"",""ACE_atropine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_quikclot"",""ACE_surgicalKit"",""ACE_bodyBag"",""adv_aceCPR_AED"",""adv_aceSplint_splint"",""KAT_larynx"",""KAT_guedel"",""KAT_accuvac"",""KAT_X_AED"",""KAT_Pulseoximeter"",""KAT_ChestSeal""],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,12,1,1,1]],[[],[]]],false]";
+													value="[[[[],[]],[[""KAT_Painkiller""],[]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_adenosine"",""ACE_atropine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_quikclot"",""ACE_surgicalKit"",""ACE_bodyBag"",""adv_aceCPR_AED"",""adv_aceSplint_splint"",""KAT_larynx"",""KAT_guedel"",""KAT_accuvac"",""KAT_X_AED"",""KAT_Pulseoximeter"",""KAT_ChestSeal""],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -29897,7 +29897,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[],[]],[[],[]],[[""Binocular"",""BWA3_Vector"",""Rangefinder"",""rhsusf_bino_m24"",""ToolKit"",""MineDetector"",""BWA3_ItemNaviPad"",""BWA3_acc_LLM01_irlaser"",""BWA3_acc_LLM01_irlaser_tan"",""BWA3_acc_LLM01_irlaser_underbarrel"",""BWA3_acc_VarioRay_irlaser"",""BWA3_acc_VarioRay_irlaser_black"",""BWA3_muzzle_snds_Rotex_IIA"",""BWA3_muzzle_snds_Rotex_Monoblock"",""BWA3_muzzle_snds_Rotex_IIIC"",""BWA3_muzzle_snds_Rotex_IIIC_tan"",""BWA3_muzzle_snds_QDSS"",""BWA3_muzzle_snds_QDSS_tan"",""BWA3_muzzle_snds_Rotex_II"",""BWA3_bipod_Atlas"",""BWA3_bipod_Harris"",""BWA3_bipod_Harris_tan"",""muzzle_snds_M"",""muzzle_snds_B"",""muzzle_snds_H_MG"",""optic_SOS"",""optic_MRD"",""optic_LRPS"",""bipod_01_F_blk"",""bipod_01_F_mtp"",""rhsusf_acc_T1_high"",""rhsusf_acc_T1_low"",""rhsusf_acc_T1_low_fwd"",""rhsusf_acc_mrds"",""rhsusf_acc_mrds_fwd"",""rhsusf_acc_mrds_c"",""rhsusf_acc_mrds_fwd_c"",""rhsusf_acc_premier_low"",""rhsusf_acc_M8541"",""rhsusf_acc_M8541_low"",""rhsusf_acc_M8541_low_wd"",""muzzle_snds_m_khk_F"",""muzzle_snds_B_khk_F"",""muzzle_snds_H_MG_blk_F"",""muzzle_snds_H_MG_khk_F"",""optic_SOS_khk_F"",""optic_LRPS_tna_F"",""optic_LRPS_ghex_F"",""rhsgref_sdn6_suppressor"",""SMA_eotech552"",""SMA_eotech552_3XDOWN_wdl"",""SMA_supp_762"",""SMA_supptan_762"",""ACE_muzzle_mzls_B"",""ACE_muzzle_mzls_L"",""ACE_HuntIR_monitor"",""ACE_optic_Hamr_2D"",""ACE_optic_Hamr_PIP"",""ACE_optic_MRCO_2D"",""ACE_optic_SOS_2D"",""ACE_optic_SOS_PIP"",""ACE_optic_LRPS_2D"",""ACE_optic_LRPS_PIP"",""ACE_EntrenchingTool"",""BWA3_optic_MicroT1"",""BWA3_optic_MicroT2"",""BWA3_optic_EOTech552_tan"",""BWA3_optic_M5Xi_Tremor3_MicroT2"",""ACE_Flashlight_XL50"",""ACE_NVG_Gen4"",""ItemAndroid"",""ItemMicroDAGR"",""TFAR_anprc152""],[20,15,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,20,20,20,12,12,12,12,12,12,20,20,20,20,20,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,20,20,20,12,12,20,20,12,12,12,12,12,12,12,12,20,20,20,20,20,12,12,12,12,20]],[[],[]]],false]";
+													value="[[[[],[]],[[],[]],[[""Binocular"",""BWA3_Vector"",""Rangefinder"",""rhsusf_bino_m24"",""ToolKit"",""MineDetector"",""BWA3_ItemNaviPad"",""BWA3_acc_LLM01_irlaser"",""BWA3_acc_LLM01_irlaser_tan"",""BWA3_acc_LLM01_irlaser_underbarrel"",""BWA3_acc_VarioRay_irlaser"",""BWA3_acc_VarioRay_irlaser_black"",""BWA3_muzzle_snds_Rotex_IIA"",""BWA3_muzzle_snds_Rotex_Monoblock"",""BWA3_muzzle_snds_Rotex_IIIC"",""BWA3_muzzle_snds_Rotex_IIIC_tan"",""BWA3_muzzle_snds_QDSS"",""BWA3_muzzle_snds_QDSS_tan"",""BWA3_muzzle_snds_Rotex_II"",""BWA3_bipod_Atlas"",""BWA3_bipod_Harris"",""BWA3_bipod_Harris_tan"",""muzzle_snds_M"",""muzzle_snds_B"",""muzzle_snds_H_MG"",""optic_SOS"",""optic_MRD"",""optic_LRPS"",""bipod_01_F_blk"",""bipod_01_F_mtp"",""rhsusf_acc_T1_high"",""rhsusf_acc_T1_low"",""rhsusf_acc_T1_low_fwd"",""rhsusf_acc_mrds"",""rhsusf_acc_mrds_fwd"",""rhsusf_acc_mrds_c"",""rhsusf_acc_mrds_fwd_c"",""rhsusf_acc_premier_low"",""rhsusf_acc_M8541"",""rhsusf_acc_M8541_low"",""rhsusf_acc_M8541_low_wd"",""muzzle_snds_m_khk_F"",""muzzle_snds_B_khk_F"",""muzzle_snds_H_MG_blk_F"",""muzzle_snds_H_MG_khk_F"",""optic_SOS_khk_F"",""optic_LRPS_tna_F"",""optic_LRPS_ghex_F"",""rhsgref_sdn6_suppressor"",""SMA_eotech552"",""SMA_eotech552_3XDOWN_wdl"",""SMA_supp_762"",""SMA_supptan_762"",""ACE_muzzle_mzls_B"",""ACE_muzzle_mzls_L"",""ACE_HuntIR_monitor"",""ACE_optic_Hamr_2D"",""ACE_optic_Hamr_PIP"",""ACE_optic_MRCO_2D"",""ACE_optic_SOS_2D"",""ACE_optic_SOS_PIP"",""ACE_optic_LRPS_2D"",""ACE_optic_LRPS_PIP"",""ACE_EntrenchingTool"",""BWA3_optic_MicroT1"",""BWA3_optic_MicroT2"",""BWA3_optic_EOTech552_tan"",""BWA3_optic_M5Xi_Tremor3_MicroT2"",""ACE_Flashlight_XL50"",""ACE_NVG_Gen4"",""ItemAndroid"",""ItemMicroDAGR"",""TFAR_anprc152""],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -29956,7 +29956,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[],[]],[[""1Rnd_HE_Grenade_shell"",""BWA3_DM51A1"",""BWA3_DM25"",""BWA3_DM32_Orange"",""BWA3_DM32_Yellow"",""BWA3_DM32_Green"",""BWA3_DM32_Red"",""BWA3_DM32_Purple"",""BWA3_DM32_Blue"",""BWA3_DM31AT_Mag""],[12,1,1,1,1,1,1,1,1,1]],[[],[]],[[],[]]],false]";
+													value="[[[[],[]],[[""1Rnd_HE_Grenade_shell"",""BWA3_DM51A1"",""BWA3_DM25"",""BWA3_DM32_Orange"",""BWA3_DM32_Yellow"",""BWA3_DM32_Green"",""BWA3_DM32_Red"",""BWA3_DM32_Purple"",""BWA3_DM32_Blue"",""BWA3_DM31AT_Mag""],[]],[[],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30015,7 +30015,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[],[]],[[""1Rnd_HE_Grenade_shell"",""BWA3_DM51A1"",""BWA3_DM25"",""BWA3_DM32_Orange"",""BWA3_DM32_Yellow"",""BWA3_DM32_Green"",""BWA3_DM32_Red"",""BWA3_DM32_Purple"",""BWA3_DM32_Blue"",""BWA3_DM31AT_Mag""],[12,1,1,1,1,1,1,1,1,1]],[[],[]],[[],[]]],false]";
+													value="[[[[],[]],[[""1Rnd_HE_Grenade_shell"",""BWA3_DM51A1"",""BWA3_DM25"",""BWA3_DM32_Orange"",""BWA3_DM32_Yellow"",""BWA3_DM32_Green"",""BWA3_DM32_Red"",""BWA3_DM32_Purple"",""BWA3_DM32_Blue"",""BWA3_DM31AT_Mag""],[]],[[],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30074,7 +30074,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[""BWA3_PzF3_Tandem_Loaded"",""BWA3_Bunkerfaust_Loaded"",""BWA3_RGW90_Loaded""],[21,20,20]],[[""BWA3_CarlGustav_Illum"",""BWA3_CarlGustav_HE"",""BWA3_CarlGustav_HEAT"",""BWA3_CarlGustav_HEDP"",""BWA3_CarlGustav_Smoke""],[20,20,20,20,20]],[[],[]],[[],[]]],false]";
+													value="[[[[""BWA3_PzF3_Tandem_Loaded"",""BWA3_Bunkerfaust_Loaded"",""BWA3_RGW90_Loaded""],[]],[[""BWA3_CarlGustav_Illum"",""BWA3_CarlGustav_HE"",""BWA3_CarlGustav_HEAT"",""BWA3_CarlGustav_HEDP"",""BWA3_CarlGustav_Smoke""],[]],[[],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30191,7 +30191,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[""BWA3_PzF3_Tandem_Loaded"",""BWA3_Bunkerfaust_Loaded"",""BWA3_RGW90_Loaded"",""BWA3_Fliegerfaust""],[20,20,20,20]],[[""BWA3_Fliegerfaust_Mag"",""BWA3_CarlGustav_Illum"",""BWA3_CarlGustav_HE"",""BWA3_CarlGustav_HEAT"",""BWA3_CarlGustav_HEDP"",""BWA3_CarlGustav_Smoke""],[20,20,20,20,20,20]],[[],[]],[[],[]]],false]";
+													value="[[[[""BWA3_PzF3_Tandem_Loaded"",""BWA3_Bunkerfaust_Loaded"",""BWA3_RGW90_Loaded"",""BWA3_Fliegerfaust""],[]],[[""BWA3_Fliegerfaust_Mag"",""BWA3_CarlGustav_Illum"",""BWA3_CarlGustav_HE"",""BWA3_CarlGustav_HEAT"",""BWA3_CarlGustav_HEDP"",""BWA3_CarlGustav_Smoke""],[]],[[],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30389,7 +30389,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[""BWA3_MG5"",""BWA3_MG5_tan"",""BWA3_G29_bipod"",""BWA3_G82""],[1,1,1,1]],[[""BWA3_120Rnd_762x51_soft"",""BWA3_10Rnd_86x70_G29"",""BWA3_10Rnd_127x99_G82""],[1,1,1]],[[""BWA3_optic_RSAS"",""BWA3_optic_MicroT1"",""BWA3_optic_MicroT2"",""BWA3_optic_CompM2"",""BWA3_optic_EOTech552"",""BWA3_optic_ZO4x30"",""BWA3_optic_ZO4x30_RSAS"",""BWA3_optic_ZO4x30i"",""BWA3_optic_ZO4x30i_RSAS"",""BWA3_optic_PMII_ShortdotCC"",""BWA3_optic_PMII_DMR_MicroT1_rear"",""BWA3_optic_M5Xi_Tremor3_MicroT2"",""BWA3_optic_M5Xi_MSR_MicroT2"",""BWA3_optic_Hensoldt""],[1,1,1,1,1,1,1,1,1,12,12,12,12,12]],[[],[]]],false]";
+													value="[[[[""BWA3_MG5"",""BWA3_MG5_tan"",""BWA3_G29_bipod"",""BWA3_G82""],[]],[[""BWA3_120Rnd_762x51_soft"",""BWA3_10Rnd_86x70_G29"",""BWA3_10Rnd_127x99_G82""],[]],[[""BWA3_optic_RSAS"",""BWA3_optic_MicroT1"",""BWA3_optic_MicroT2"",""BWA3_optic_CompM2"",""BWA3_optic_EOTech552"",""BWA3_optic_ZO4x30"",""BWA3_optic_ZO4x30_RSAS"",""BWA3_optic_ZO4x30i"",""BWA3_optic_ZO4x30i_RSAS"",""BWA3_optic_PMII_ShortdotCC"",""BWA3_optic_PMII_DMR_MicroT1_rear"",""BWA3_optic_M5Xi_Tremor3_MicroT2"",""BWA3_optic_M5Xi_MSR_MicroT2"",""BWA3_optic_Hensoldt""],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30448,7 +30448,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[""BWA3_MG4"",""BWA3_P8"",""BWA3_MP7"",""BWA3_MG5"",""BWA3_G28_Patrol"",""BWA3_G29""],[1,1,1,1,12,1]],[[],[]],[[],[]],[[],[]]],false]";
+													value="[[[[""BWA3_MG4"",""BWA3_P8"",""BWA3_MP7"",""BWA3_MG5"",""BWA3_G28_Patrol"",""BWA3_G29""],[]],[[],[]],[[],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30506,7 +30506,7 @@ class Mission
 															"STRING"
 														};
 													};
-													value="[[[[],[]],[[""KAT_Painkiller""],[1]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_adenosine"",""ACE_atropine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_quikclot"",""ACE_surgicalKit"",""ACE_bodyBag"",""adv_aceCPR_AED"",""adv_aceSplint_splint"",""KAT_larynx"",""KAT_guedel"",""KAT_accuvac"",""KAT_X_AED"",""KAT_Pulseoximeter"",""KAT_ChestSeal""],[12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12]],[[],[]]],false]";
+													value="[[[[],[]],[[""KAT_Painkiller""],[]],[[""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_tourniquet"",""ACE_morphine"",""ACE_adenosine"",""ACE_atropine"",""ACE_epinephrine"",""ACE_plasmaIV"",""ACE_plasmaIV_500"",""ACE_plasmaIV_250"",""ACE_salineIV"",""ACE_salineIV_500"",""ACE_salineIV_250"",""ACE_bloodIV"",""ACE_bloodIV_500"",""ACE_bloodIV_250"",""ACE_quikclot"",""ACE_surgicalKit"",""ACE_bodyBag"",""adv_aceCPR_AED"",""adv_aceSplint_splint"",""KAT_larynx"",""KAT_guedel"",""KAT_accuvac"",""KAT_X_AED"",""KAT_Pulseoximeter"",""KAT_ChestSeal""],[]],[[],[]]],true]";
 												};
 											};
 										};
@@ -30786,7 +30786,7 @@ class Mission
 					};
 					id=155;
 					type="BWA3_Box_Ammo";
-					atlOffset=0.88100433;
+					atlOffset=0.87783813;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30844,7 +30844,7 @@ class Mission
 					};
 					id=149;
 					type="BWA3_Box_Support";
-					atlOffset=0.88043976;
+					atlOffset=0.87702942;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30902,7 +30902,7 @@ class Mission
 					};
 					id=150;
 					type="BWA3_Box_Explosives";
-					atlOffset=0.88034821;
+					atlOffset=0.87695313;
 				};
 				class Item3
 				{
@@ -30918,7 +30918,7 @@ class Mission
 					};
 					id=148;
 					type="BWA3_Box_Launchers";
-					atlOffset=0.88100433;
+					atlOffset=0.87931824;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30976,7 +30976,7 @@ class Mission
 					};
 					id=152;
 					type="BWA3_Box_SpecialWeapons";
-					atlOffset=0.88062286;
+					atlOffset=0.87818146;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31034,7 +31034,7 @@ class Mission
 					};
 					id=151;
 					type="BWA3_Box_Weapons";
-					atlOffset=0.8805542;
+					atlOffset=0.87807465;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35382,7 +35382,7 @@ class Mission
 				};
 			};
 			id=174;
-			atlOffset=0.88752747;
+			atlOffset=0.88687897;
 		};
 		class Item2
 		{

@@ -1,0 +1,113 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=2;
+	};
+	class Camera
+	{
+		pos[]={9220.1992,58.331116,5556.2144};
+		dir[]={0.14089179,-0.50122035,-0.85377312};
+		up[]={0.081611618,0.86531925,-0.49453145};
+		aside[]={-0.98665559,2.2563036e-006,-0.16282202};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Boat_F_Destroyer_Destroyer_01"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="A3_Boat_F_Destroyer";
+			name="Arma 3 Jets - Boats and Submersibles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=11560991;
+class ScenarioData
+{
+	author="Scarjit";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=6;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9200.6006,-2.8298006,5475.0981};
+				angles[]={0,1.4222862,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="destroyer_1";
+			};
+			id=1;
+			type="Land_Destroyer_01_base_F";
+			atlOffset=14.783;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="Enh_featureType";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+	};
+};
