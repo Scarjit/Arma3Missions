@@ -1,3 +1,7 @@
 [submodule "HEC-Zeus-Template-North-Livonia.Enoch"]
 	path = HEC-Zeus-Template-North-Livonia.Enoch
 	url = https://github.com/Neodyn/HEC-Zeus-Template-North-Takistan.git
+[submodule "HEC/HEC-Zeus-Template-North-Takistan"]
+	path = HEC/HEC-Zeus-Template-North-Takistan
+	url = https://github.com/Neodyn/HEC-Zeus-Template-North-Takistan.git
+	branch = master
