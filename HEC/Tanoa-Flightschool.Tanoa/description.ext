@@ -1,0 +1,115 @@
+
+/* ========================================================================================================================== */
+/* ================================================ ALLGEMEIN ANFANG ======================================================== */
+
+/* ================================================ MISSION INFO ============================================================ */
+Author = "Neodym ||HEC||";
+onLoadName = "NFOR North by ||HEC|| - Zeus -  ";
+onLoadMission = "Terrorist forces try to gain control of Takistan and enter the fight to drive out Task Force TRIUMPH";
+loadScreen = "pics\loadscreen.paa";
+briefingName = "=[NORTH TAKISTAN - NFOR]= ACE3 v10.6 - Zeus -";
+
+/* ================================================ GAME TYPE ============================================================== */
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 41;
+};
+
+/* ================================================ RESPAWN SETTINGS ====================================================== */
+respawn = 3;
+respawnDelay = 10;
+respawnTemplates[] = {"MenuPosition"};
+respawnOnStart = -1;
+
+/* ================================================ MISSION SETTINGS ======================================================= */
+aiKills = 0;
+briefing = 1;
+debriefing = 0;
+disabledAI = 1;
+allowFunctionsRecompile = 1;
+allowFunctionsLog = 0;
+enableDebugConsole = 1;			//0 für OFF, 1 für Admin only, 2 für alle.
+forceRotorLibSimulation = 0;	//0=options based;1=force enable;2=force disable
+showMap = 1;
+ShowCompass = 1;
+showWatch = 1;
+showGroupIndicator = 0;
+disableChannels[]={{0,true,true},{1,false,true},{2,false,true},{3,false,true},{4,false,true},{5,false,true},{6,true,true}};
+
+// CBA Config
+cba_settings_hasSettingsFile = 1;
+
+/* ================================================ CfgRemoteExec =========================================================== */
+class cfgRemoteExec
+{
+	// List of script commands allowed to be sent from client via remoteExec
+	class Commands
+	{
+		// State of remoteExec: 0-turned off, 1-turned on, taking whitelist into account, 2-turned on, however, ignoring whitelists (default because of backward compatibility)
+		mode = 2;
+	};
+	// List of script functions allowed to be sent from client via remoteExec
+	class Functions
+	{
+		// State of remoteExec: 0-turned off, 1-turned on, taking whitelist into account, 2-turned on, however, ignoring whitelists (default because of backward compatibility)
+		mode = 2;
+		// Ability to send jip messages: 0-disabled, 1-enabled (default)
+		jip = 1;
+		class BIS_fnc_effectKilledAirDestruction {};
+		class BIS_fnc_effectKilledSecondaries {};
+		class BIS_fnc_objectVar {};
+		class BIS_fnc_execVM {};
+	};
+};
+/* ================================================ ALLGEMEIN ENDE ========================================================= */
+/* ========================================================================================================================= */
+
+
+/* ================================================ INTERFACES FÜR LOADOUTS ================================================ */
+#include "ADV_gear\gui\bwtrop\bwtropLoadoutDialog.hpp"
+#include "ADV_gear\gui\bwfleck\bwfleckLoadoutDialog.hpp"
+#include "ADV_gear\gui\uk\ukLoadoutDialog.hpp"
+#include "ADV_gear\gui\usocp\usocpLoadoutDialog.hpp"
+#include "ADV_gear\gui\usmarines\usmarinesLoadoutDialog.hpp"
+#include "ADV_gear\gui\ussf\ussfLoadoutDialog.hpp"
+#include "functions\logistic\internal\logisticDialog.hpp"
+
+/* ================================================ FUNKTION =============================================================== */
+class CfgFunctions 
+{
+		
+		#include "param\CfgFunctions.hpp"
+		#include "ADV_gear\CfgFunctions.hpp"
+		#include "KPCF\KPCF_functions.hpp"
+		#include "scripts\GOM\functions\GOM_fnc_functions.hpp"
+
+};
+class CfgCommunicationMenu
+{
+
+	#include "scripts\GOM\functions\GOM_fnc_aircraftLoadoutMenu.hpp"
+
+};
+
+#include "scripts\GOM\dialogs\GOM_dialog_parents.hpp"
+#include "scripts\GOM\dialogs\GOM_dialog_controls.hpp"
+#include "KPGUI\KPGUI_defines.hpp"
+#include "KPCF\ui\KPCF_dialog.hpp"
+
+/* ================================================ PARAMS SETTINGS ========================================================= */
+class Params {
+	#include "params.hpp"
+};
+
+#include "functions\client\internal\teleportDialog.hpp"
+
+/* ================================================ SOUND SECTION =========================================================== */
+class CfgSounds
+{
+   sounds[] = {muezzin};
+
+	class muezzin {name="muezzin";sound[]={sound\muezzin.ogg,db+10,1.0};titles[] = {};};
+
+};
